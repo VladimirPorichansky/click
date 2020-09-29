@@ -274,6 +274,7 @@ class Context:
         token_normalize_func=None,
         color=None,
         show_default=None,
+        **kwargs
     ):
         #: the parent context or `None` if none exists.
         self.parent = parent
